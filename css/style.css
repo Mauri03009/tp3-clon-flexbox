@@ -1,6 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+.borel-regular {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hero{     
@@ -9,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 .top-line{
@@ -32,6 +38,8 @@
     margin-left: 20vh;
 }
 
+
+
 .redes{
     margin-right: 20vh;
 }
@@ -41,6 +49,15 @@
     gap: 20px;
     justify-content: end;
     margin: 10vh 20vh 0vh;
+    transition: all 1s ease;
+}
+
+.navegacion a:hover{
+    color: rgb(84, 158, 226);
+}
+
+.navegacion img{
+    width: 15px;
 }
 
 .titulo{
@@ -49,11 +66,42 @@
     align-items: center;
     margin-top: 16vh;
     font-size: 40px;
-    color: rgb(254, 254, 254);
+    color: rgb(0, 0, 0);
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 a{
     text-decoration: none;
-    color: rgb(254, 254, 254);
+    color: rgb(0, 0, 0);
     font-weight: bolder;
+    font-size: 13px;
 }
+
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-us img{
+    width: 70vh;
+    
+    height: auto;
+    padding: 60px;
+}
+
+.about-us div{
+    width: 90vh;
+    padding: 30px;
+}
+
+.about-us h3{
+    padding: 50px 0px 10px;
+}
+
+
