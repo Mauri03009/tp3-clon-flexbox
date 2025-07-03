@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{     
+    background: url(../img/oficina.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.top-line{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-line div{
+    display: flex;
+    gap: 20px;  
+    margin-top: 4vh;  
+}
+
+.top-line img{
+    width: 20px;
+}
+
+.nav1{
+    margin-left: 20vh;
+}
+
+.redes{
+    margin-right: 20vh;
+}
+
+.navegacion{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin: 10vh 20vh 0vh;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16vh;
+    font-size: 40px;
+    color: rgb(254, 254, 254);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-weight: bolder;
+}
