@@ -17,6 +17,16 @@
     font-weight: 800;
 }
 
+.hero h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 15px 5px;
+    border-radius: 10px;
+}
+
+.hero a, h1{
+    color: white;
+}
+
 .top-line{
     display: flex;
     justify-content: space-between;
